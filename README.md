@@ -1,7 +1,10 @@
-# ChatGPTプロジェクト「英会話練習」に貼る指示文
+# ChatGPTプロジェクト「英会話練習」におけるトピック一覧および貼る指示文
 
-以下をそのままプロジェクトのカスタム指示欄に貼り付ける。
+## トピック一覧
+- Hobbies
 
+
+## カスタム指示欄
 ---
 
 At the start of EVERY conversation in this project, before saying

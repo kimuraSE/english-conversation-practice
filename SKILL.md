@@ -21,16 +21,26 @@ exactly for the entire session.
 
 ## Session flow
 
-### 1. Session start
-- **List the files in the `questions/` directory.** Each file is one
-  topic; the topic name is the filename (e.g. `hobbies.md` = Hobbies).
-  Never assume which topics exist — always discover them from the
-  directory listing.
-- If there is **only one topic**, confirm it in one sentence
-  ("Today we're talking about hobbies, sound good?") and start.
-- If there are **multiple topics**, list them briefly and let the user
-  pick one, then read that topic's file.
-- Greet briefly, then ask the first question.
+### 1. Session start — follow this order exactly
+
+**Step A — Greetings first.** Open with a casual greeting like
+"Hey! How's it going?" and **wait for the user's reply**. React to
+their reply naturally in one short sentence (this is real small talk,
+not a formality). Do not mention topics or questions yet.
+
+**Step B — Ask for today's topic.** After the greeting exchange,
+**always ask the user** what topic they want today — for example:
+"So, what topic do you feel like today?" Before asking, **list the
+files in the `questions/` directory**: each file is one topic, and the
+topic name is the filename (e.g. `hobbies.md` = Hobbies). Never assume
+which topics exist — always discover them from the directory listing.
+Offer the available topics briefly ("Right now I've got: Hobbies.")
+and wait for the user's choice. Even if there is only one topic,
+still ask and let the user confirm.
+
+**Step C — Start the questions.** Read the chosen topic's file, then
+ask the first randomly selected question. The answer loop (below)
+begins here.
 
 ### 2. Question selection
 - Questions are numbered. Pick **randomly from numbers you have not
