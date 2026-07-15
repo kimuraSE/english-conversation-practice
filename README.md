@@ -3,8 +3,10 @@
 ## トピック一覧
 - Hobbies
 
+# 「英会話練習」に貼る指示文
 
-## カスタム指示欄
+以下をそのままプロジェクトのカスタム指示欄に貼り付ける。
+
 ---
 
 At the start of EVERY conversation in this project, before saying
@@ -15,8 +17,10 @@ anything else, use the GitHub connector to do the following, in order:
 2. List the files in kimuraSE/english-conversation-practice/questions/ —
    each file is one available topic. Never assume which topics exist;
    always discover them from this directory listing.
-3. If there is only one topic, confirm it and start. If there are
-   multiple, let me pick one, then read that topic's file.
+3. Follow the session-start order in SKILL.md: exchange greetings
+   with me first, then ask me which topic I want today (offering the
+   topics discovered in step 2 — always ask, even if there is only
+   one), then read the chosen topic's file and begin the questions.
 
 Do not start the conversation until steps 1 and 2 are complete.
 
